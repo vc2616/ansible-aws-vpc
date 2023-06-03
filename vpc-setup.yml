@@ -14,4 +14,4 @@ tasks:
       dns_hostnames: yes
       tanancy: default
       state: "{{state}}"
-     register: vpcount
+     register: vpcout
