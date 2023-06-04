@@ -8,9 +8,9 @@ vpcCidr:  '172.20.0.0/16'
 PubSub1Cidr: 172.20.1.0/24
 PubSub2Cidr: 172.20.2.0/24
 PubSub3Cidr: 172.20.3.0/24
-PriSub1Cidr: 172.20.4.0/24
-PriSub2Cidr: 172.20.5.0/24
-PriSub3Cidr: 172.20.6.0/24
+PrivSub1Cidr: 172.20.4.0/24
+PrivSub2Cidr: 172.20.5.0/24
+PrivSub3Cidr: 172.20.6.0/24
 
 
 # Region Name
@@ -18,9 +18,9 @@ region: "us-east-2"
 
 # Zone Names
 
-zone1: us-east-1a
+zone1: us-east-2a
 zone2: us-east-2b
-zone3: us-east-3c
+zone3: us-east-2c
 
 state: present
 
