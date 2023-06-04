@@ -83,7 +83,7 @@
         region: "{{region}}"
         az: "{{ zone3 }}"
         state: "{{state}}"
-        cidr: "{{ PrivSub1Cidr }}"
+        cidr: "{{ PrivSub3Cidr }}"
         resource_tags:
           Name: vprofile_privsub3
       register: privsub3_out
