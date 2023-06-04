@@ -14,7 +14,7 @@ PriSub3Cidr: 172.20.6.0/24
 
 
 # Region Name
-Region: "us-east-2"
+region: "us-east-2"
 
 # Zone Names
 
