@@ -89,9 +89,10 @@
       register: privsub3_out
 
     - name: Internet Gateway Setup
-      vpc_id: "{{vpcout.vpc.id}}"
+      ec2_vpc_igw:
+        vpc_id: "{{vpcout.vpc.id}}"
         region: "{{region}}"
         state: "{{state}}"
         resource_tags:
           Name: vprofile_IGW
-        register: igw_out
+      register: igw_out
