@@ -1,0 +1,11 @@
+vpcid: vpc
+pubsub1id:
+pubsub2id:
+pubsub3id:
+privsub1id:
+privsub2id:
+privsub3id:
+igwid:
+pubRTid:
+NATGWid:
+privRTid:
